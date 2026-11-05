@@ -1207,6 +1207,16 @@ export default function App() {
       <footer className="bg-white border-t border-slate-200 py-3 text-center text-xs text-slate-400">
         Riset Hilirisasi Prioritas • Uji Penerimaan Konsumen Produk Kukis Kimpul • Universitas Wijaya Kusuma Surabaya & UMKM Mina Bunga Cempaka
       </footer>
+
+      <div
+        aria-hidden="true"
+        className="fixed bottom-4 right-4 z-20 flex items-center gap-2 rounded-full border border-slate-300/40 bg-white/70 px-3 py-1.5 text-slate-500 opacity-40 shadow-sm pointer-events-none select-none"
+      >
+        <span className="flex h-6 w-6 items-center justify-center rounded-full bg-amber-700 text-[10px] font-bold text-white">
+          DL
+        </span>
+        <span className="text-[10px] font-semibold tracking-wide">Daniel Liem</span>
+      </div>
     </div>
   );
 }
